@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+    
+    width:100%;
+
+}
+#menu{
+    width:60px;
+    height:50px;
+    background-color: black;
+    color:white;
+    position:fixed;
+    top:20px;
+    right:20px;
+    padding:10px;
+    box-sizing: border-box;
+}
+#menu:hover{
+    color:yellow;
+}
+.para{
+    font-size: 15px;
+    font-weight: 30;
+    padding: 1px 50px 0px 60px;
+ word-break: break-all;
+    
+
+    
+}
+h3{
+    font-size: 40px;
+    text-decoration: underline;
+    padding-top:0px ;
+    padding-bottom:0px;
+}
+
+
+.side ul{
+    margin:0;
+    padding:0;
+    margin:0;
+    padding:0;
+    background-color: black;
+    width: 300px;
+    position: fixed;
+    left:0px;
+    height:100vh;
+    box-sizing: border-box;
+    display: none;
+    float:left;
+    
+}
+.side ul li{
+    font-size:20px;
+    padding:30px 0px;
+    margin:0px 20px;
+   
+    
+}
+.side ul li a{
+    color:white;
+    text-decoration:none;
+  
+    margin:40px 50px;
+    
+}
+.side ul li a:hover{
+    margin-left:80px;
+        color:yellow;
+      
+        
+}
+
